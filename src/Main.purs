@@ -10,6 +10,7 @@ import ADT5 as ADT5
 import ADT6 as ADT6
 import ADT7 as ADT7
 import ADT8 as ADT8
+import ADT9 as ADT9
 import Effect (Effect)
 
 main :: Effect Unit
@@ -22,3 +23,4 @@ main = do
   ADT6.main
   ADT7.main
   ADT8.main
+  ADT9.main
